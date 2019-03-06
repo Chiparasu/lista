@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Product App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+
+<body>
+
+    <div class="wrapper">
+        <div class="container">
+            <div class="item" id="app">
+                <h4 class="title-list">Product List</h4>
+                <form action="" class="form" id="product-form">
+                    <input class="input" id="name" type="text" placeholder="product name">
+                    <input class="input" type="number" step="0.01" id="price" placeholder="product price">
+                    <input class="input" type="number" id="year" value="2018" placeholder="year product">
+                    <input class="input-button" type="submit" value="Save">
+                </form>
+            </div>
+            <div class="item">
+                <h4 class="title-list">Product</h4>
+                <!-- <ul class="list">
+                        <li class="item-list"></li>
+                    </ul> -->
+                <div id="product-list"></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
